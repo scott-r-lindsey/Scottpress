@@ -29,20 +29,20 @@ define( 'DB_COLLATE', '' );
 // Salts, for security
 // Grab these from: https://api.wordpress.org/secret-key/1.1/salt
 // ==============================================================
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         '%%AUTH_KEY%%' );
+define( 'SECURE_AUTH_KEY',  '%%SECURE_AUTH_KEY%%' );
+define( 'LOGGED_IN_KEY',    '%%LOGGED_IN_KEY%%' );
+define( 'NONCE_KEY',        '%%NONCE_KEY%%' );
+define( 'AUTH_SALT',        '%%AUTH_SALT%%' );
+define( 'SECURE_AUTH_SALT', '%%SECURE_AUTH_SALT%%' );
+define( 'LOGGED_IN_SALT',   '%%LOGGED_IN_SALT%%' );
+define( 'NONCE_SALT',       '%%NONCE_SALT%%' );
 
 // ==============================================================
 // Table prefix
 // Change this if you have multiple installs in the same database
 // ==============================================================
-$table_prefix  = 'wp_';
+$table_prefix  = 'wp_np_';
 
 // ================================
 // Language
