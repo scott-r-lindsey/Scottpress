@@ -5,4 +5,4 @@
 /www/local-config.php
 /www/sql-dump-*.sql
 /www/db-sync
-/www/content/upgrade/
+/www/content
