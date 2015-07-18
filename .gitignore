@@ -1,8 +1,8 @@
 *.swp
 *.old
-/shared
-/local-config.php
-/sql-dump-*.sql
-/db-sync
-/content/upgrade/
 .DS_Store
+/www/shared
+/www/local-config.php
+/www/sql-dump-*.sql
+/www/db-sync
+/www/content/upgrade/
